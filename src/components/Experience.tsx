@@ -10,7 +10,7 @@ const Experience = () => {
       company: 'Codora Pvt Ltd',
       position: 'Full Stack Developer',
       duration: '2023 – Present',
-      location: 'Remote',
+      location: 'Islamabad, Pakistan',
       description: 'Leading full-stack development projects with React, Node.js, and cloud technologies. Architecting scalable solutions and mentoring junior developers.',
       achievements: [
         'Built 10+ production applications using React, Next.js, and Node.js',
@@ -101,7 +101,7 @@ const Experience = () => {
       company: 'MWAN Pvt Ltd',
       position: 'Senior Software Developer',
       duration: '2021 – 2023',
-      location: 'Lahore, Pakistan',
+      location: 'Islamabad, Pakistan',
       description: 'Developed complex web applications and managed team of 5 developers. Specialized in backend architecture and database optimization.',
       achievements: [
         'Optimized database queries improving application performance by 45%',
@@ -175,7 +175,7 @@ const Experience = () => {
       company: 'Target Energy Solutions',
       position: 'Software Engineer',
       duration: '2019 – 2021',
-      location: 'Karachi, Pakistan',
+      location: 'Islamabad, Pakistan',
       description: 'Focused on energy management systems and IoT integration. Built responsive web applications and REST APIs.',
       achievements: [
         'Created energy monitoring dashboard reducing costs by 30%',
@@ -274,7 +274,7 @@ const Experience = () => {
         website: 'https://techinflux.com'
       },
       skills: {
-        technical: ['JavaScript', 'PHP', 'MySQL', 'Bootstrap', 'jQuery', 'HTML5', 'CSS3', 'WordPress', 'SEO Basics'],
+        technical: ['JavaScript', 'Nodejs', 'MySQL', 'Bootstrap', 'HTML5', 'CSS3', 'WordPress', 'SEO Basics'],
         soft: ['Learning Agility', 'Attention to Detail', 'Time Management', 'Team Collaboration', 'Customer Service'],
         tools: ['VS Code', 'Git', 'phpMyAdmin', 'Chrome DevTools', 'FileZilla', 'Photoshop', 'WordPress Admin']
       },
