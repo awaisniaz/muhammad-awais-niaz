@@ -43,6 +43,14 @@ const Hero = () => {
       nextSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
+   const downloadCV =()=> {
+    const link = document.createElement('a');
+    link.href = '../static/Awaisniaz-Fullstack-Developer.pdf';  // path to your CV file
+    link.download = 'Awaisniaz-Fullstack-Developer.pdf';  // suggested download name
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
 
   // Calculate dynamic stats
   const currentYear = new Date().getFullYear();
@@ -99,7 +107,7 @@ const Hero = () => {
               View My Work
             </button>
             
-            <button className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300 flex items-center justify-center gap-2">
+            <button className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300 flex items-center justify-center gap-2" onClick={downloadCV}>
               <Download className="w-5 h-5" />
               Download CV
             </button>

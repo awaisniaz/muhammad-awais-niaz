@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
-
+import { Mail, Phone, MapPin, Send, Github, Linkedin } from 'lucide-react';
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -63,13 +62,14 @@ const Contact = () => {
       url: 'https://www.linkedin.com/in/awais1995/',
       color: 'hover:text-blue-600'
     },
-    {
-      icon: <Twitter className="w-5 h-5" />,
-      name: 'Twitter',
-      url: 'https://www.linkedin.com/in/awais1995/',
-      color: 'hover:text-blue-400'
-    }
+    // {
+    //   icon: <Twitter className="w-5 h-5" />,
+    //   name: 'Twitter',
+    //   url: 'https://www.linkedin.com/in/awais1995/',
+    //   color: 'hover:text-blue-400'
+    // }
   ];
+
 
   return (
     <section id="contact" className="py-20 bg-gray-50">
